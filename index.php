@@ -275,7 +275,7 @@ function getClientIP(){
     }
     return $ip;
 }
-$config=[".","..",".idea","ip.txt","download.txt","index.php",".htaccess"];
+
 /**
  * 统计当前目录下的文件
  * @param string $path
@@ -303,6 +303,11 @@ function index($path ="./assets"){
     }
 }
 
+/**
+ * 文件名称兼容
+ * @param $file_name
+ * @return mixed
+ */
 function getTmpFilePath($file_name){
     if(!file_exists($file_name)){
         return $file_name;
@@ -315,55 +320,70 @@ function getTmpFilePath($file_name){
     
 }
 
-$dome ="download.shiguangxiaotou.cn/";
+/**
+ * 替换字符串
+ * @param $str
+ * @param array $options
+ * @return mixed|string|string[]
+ */
+function my_str_replace($str,$options=[]){
+    $options =  empty($options) ? [
+        "<h1>"=>"",
+        '</h1>'=>"",
+        '<b>'=>'',
+        '</b>'=>'',
+        '<p>'=>"",
+        "</p>"=>''
+    ]:$options;
+    foreach ($options as $key =>$value){
+        $str =   str_replace($key,$value,$str);
+    }
+    return $str;
+}
 
-$data =[];
-$str = "<h1>时光小偷的代理下载插件:1.0.0</h1>\r\n";
-$str .="<b>你可以使用控制台或者浏览器,创建下载任务和下载文件</b>\r\n";
-$str .= "以下命令可以使用:\r\n";
-$str .= "  Download_Task(get)                        "."创建下载任务\r\n";
-$str .= "    eq:http://".$dome."?Download_Task={url}&save_path=.\/test.png\r\n";
-$str .= "  download file                             "."下载文件\r\n";
-$str .= "    eq:http://".$dome."test.txt\r\n";
-$str .= "\r\n";
-$str .= "文件列表:\r\n";
 if($_GET){
- if( isset($_GET["Download_Task"]) and !empty($_GET["Download_Task"])){
-     $url =$_GET["Download_Task"];
-     $file_name = basename($_GET["Download_Task"]);
-     if(isset($_GET["save_path"]) and !empty($_GET["save_path"])){
-         $save_path = $_GET["save_path"];
-         if(!strEndWith($save_path)){
-             $save_path .="/";
-         }
-         if(!is_dir($save_path)){
-             mkdir($save_path);
-         }
-     }else{
-         $save_path ="./assets";
-     }
-     
-     echo "下载任务已添加成功\r\n";
-     download($url ,getTmpFilePath($save_path. $file_name));
-     die();
- }
+    if( isset($_GET["Download_Task"]) and !empty($_GET["Download_Task"])){
+        $url =$_GET["Download_Task"];
+        $file_name = basename($_GET["Download_Task"]);
+        if(isset($_GET["save_path"]) and !empty($_GET["save_path"])){
+            $save_path = $_GET["save_path"];
+            if(!strEndWith($save_path)){
+                $save_path .="/";
+            }
+            if(!is_dir($save_path)){
+                mkdir($save_path);
+            }
+        }else{
+            $save_path ="./assets";
+        }
+
+        echo "下载任务已添加成功\r\n";
+        download($url ,getTmpFilePath($save_path. $file_name));
+        die();
+    }
 
 }
+
+$dome ="download.shiguangxiaotou.cn/";
+$data =[];
+$str = <<<html
+<h1>时光小偷的代理下载插件:1.0.0</h1>\r\n
+<b>你可以使用控制台或者浏览器,创建下载任务和下载文件</b>\r\n
+以下命令可以使用:\r\n
+  Download_Task(get)                        创建下载任务\r\n
+    eq:http://{$dome}?Download_Task={url}&save_path=.\/test.png\r\n
+  download file                             下载文件\r\n
+    eq:http://{$dome}test.txt\r\n\r\n
+文件列表:\r\n
+html;
+$config=[".","..",".idea","ip.txt","download.txt","index.php",".htaccess"];
 index();
-$th=['目录','文件名','拓展名',"大小",'类型','访问时间','权限'];
-$str .=PrintTable::Print_table($data,$th);
-$head = $_SERVER['HTTP_USER_AGENT'];
-if(!empty($head)){
+$str .=PrintTable::Print_table($data,['目录','文件名','拓展名',"大小",'类型','访问时间','权限']);
+if(!empty($_SERVER['HTTP_USER_AGENT'])){
     $conten ="   如有BUG,<a href='https://www.shiguangxiaotou.com' target='_blank'>请联系我</a>";
     echo "<pre><code>".$str.$conten."</code></pre>";
 }else{
-    $str= str_replace('<h1>',"",$str);
-    $str= str_replace('</h1>',"",$str);
-    $str= str_replace('<b>',"",$str);
-    $str= str_replace('</b>',"",$str);
-    $str= str_replace('<p>',"",$str);
-    $str= str_replace('</p>',"",$str);
-    echo $str;
+    echo my_str_replace($str);
 }
-file_put_contents("ip.txt",time()." ".date("Y-m-d H:i:s"). " ".getClientIP()."\r\n",FILE_APPEND);
+
 ?>
