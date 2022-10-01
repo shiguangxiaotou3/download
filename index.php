@@ -341,12 +341,12 @@ function my_str_replace($str,$options=[]){
     return $str;
 }
 
-if($_GET){
-    if( isset($_GET["Download_Task"]) and !empty($_GET["Download_Task"])){
-        $url =$_GET["Download_Task"];
-        $file_name = basename($_GET["Download_Task"]);
-        if(isset($_GET["save_path"]) and !empty($_GET["save_path"])){
-            $save_path = $_GET["save_path"];
+if($_POST){
+    if( isset($_POST["Download_Task"]) and !empty($_POST["Download_Task"])){
+        $url =$_POST["Download_Task"];
+        $file_name = basename($_POST["Download_Task"]);
+        if(isset($_POST["save_path"]) and !empty($_POST["save_path"])){
+            $save_path = $_POST["save_path"];
             if(!strEndWith($save_path)){
                 $save_path .="/";
             }
@@ -370,9 +370,9 @@ $str = <<<html
 <h1>时光小偷的代理下载插件:1.0.0</h1>\r\n
 <b>你可以使用控制台或者浏览器,创建下载任务和下载文件</b>\r\n
 以下命令可以使用:\r\n
-  Download_Task(get)                        创建下载任务\r\n
+  Download_Task(post)                        创建下载任务\r\n
     eq:http://{$dome}?Download_Task={url}&save_path=.\/test.png\r\n
-  download file                             下载文件\r\n
+  download file(get)                         下载文件\r\n
     eq:http://{$dome}test.txt\r\n\r\n
 文件列表:\r\n
 html;
