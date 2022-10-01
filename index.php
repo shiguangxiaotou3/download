@@ -281,7 +281,7 @@ $config=[".","..",".idea","ip.txt","download.txt","index.php",".htaccess"];
  * @param string $path
  * @return bool|false|int
  */
-function index($path ="./"){
+function index($path ="./assets"){
     global $data,$config;
     if (is_dir($path)){
         $handle = opendir($path);
@@ -340,7 +340,7 @@ if($_GET){
              mkdir($save_path);
          }
      }else{
-         $save_path ="./";
+         $save_path ="./assets";
      }
      
      echo "下载任务已添加成功\r\n";
