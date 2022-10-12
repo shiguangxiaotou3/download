@@ -6,15 +6,24 @@ use ShiGuangXiaoTou\PrintTable;
 
 class Download
 {
-    public $path = BASE_PATH;
-    public $ur = '';
-    public $savePath = BASE_ASSETS;
-    public $dome = "download.shiguangxiaotou.cn/";
-    public $config = [".", "..", ".idea", "ip.txt", "download.txt", "index.php", ".htaccess"];
+    public $basePath ;
+    public $assetsPath ;
+    public $savePath;
+    public $url;
+    public $domain;
+    public $ignore;
     public $files = [];
 
-    public function __construct()
-    {
+    /**
+     * Download constructor.
+     * @param $config
+     */
+    public function __construct($config){
+        $this->basePath = $config["basePath"];
+        $this->assetsPath = $config["assetsPath"];
+        $this->savePath = $config["savePath"];
+        $this->domain = $config["domain"];
+        $this->ignore = $config["ignore"];
 
     }
 
@@ -31,9 +40,9 @@ class Download
 <b>你可以使用控制台或者浏览器,创建下载任务和下载文件</b>\r\n
 以下命令可以使用:\r\n
   Download_Task(post)                        创建下载任务\r\n
-    eq:http://{$this->dome}?Download_Task={url}&save_path=.\/test.png\r\n
+    eq:http://{$this->domain}?Download_Task={url}&save_path=.\/test.png\r\n
   download file(get)                         下载文件\r\n
-    eq:http://{$this->dome}test.txt\r\n\r\n
+    eq:http://{$this->domain}test.txt\r\n\r\n
 文件列表:\r\n
 html;
             $this->getAssetsInfo();
@@ -43,21 +52,21 @@ html;
     }
 
     /**
-     *
-     * @param string $path
+     * 递归读取文件
+     * @param string $assetsPath
      * @return false
      * @link $files
      */
-    public function getAssetsInfo($path = BASE_ASSETS)
+    public function getAssetsInfo($assetsPath = '')
     {
-        if (is_dir($path)) {
-            $handle = opendir($path);
+        if (is_dir($assetsPath)) {
+            $handle = opendir($assetsPath);
             while (false !== ($FolderOrFile = readdir($handle))) {
-                if (!in_array($FolderOrFile, $this->config)) {
-                    if (is_dir($path . '/' . $FolderOrFile)) {
-                        $this->getAssetsInfo($path . '/' . $FolderOrFile);
+                if (!in_array($FolderOrFile, $this->ignore)) {
+                    if (is_dir($assetsPath . '/' . $FolderOrFile)) {
+                        $this->getAssetsInfo($assetsPath . '/' . $FolderOrFile);
                     } else {
-                        array_unshift($this->files, $this->fileInfo($path . '/' . $FolderOrFile));
+                        array_unshift($this->files, $this->fileInfo($assetsPath . '/' . $FolderOrFile));
                     }
                 }
             }
@@ -225,7 +234,7 @@ html;
         } else {
             $info = pathinfo($file_name);
             $download_path = str_replace($info['filename'], $info['filename'] . "_1", $file_name);
-            return getTmpFilePath($download_path);
+            return $this-> getTmpFilePath($download_path);
         }
 
     }

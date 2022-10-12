@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad806044-ae39-4ede-8713-28c63f66d0d4" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Download.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/shiguangxiaotou3/download.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+            <option name="selectedSavedDocumentIndex" value="0" />
+          </AnonymousApexSettings>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+            <option name="selectedSavedDocumentIndex" value="0" />
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2FGpMjTdNbePKLyLWqPKpseWmuS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad806044-ae39-4ede-8713-28c63f66d0d4" name="默认更改列表" comment="" />
+      <created>1664128228865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664128228865</updated>
+      <workItem from="1664128229975" duration="2159000" />
+      <workItem from="1664171549720" duration="875000" />
+      <workItem from="1665574565898" duration="4808000" />
+      <workItem from="1665592546150" duration="10144000" />
+      <workItem from="1665602806578" duration="3783000" />
+      <workItem from="1665608608130" duration="74000" />
+      <workItem from="1665608692905" duration="3997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="10" y="175" key="#Illuminated_Cloud" timestamp="1665608618542">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="10" y="175" key="#Illuminated_Cloud/0.0.1920.1032@0.0.1920.1032" timestamp="1665608618542" />
+    <state x="219" y="512" key="#WordPress" timestamp="1664171815946">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state x="219" y="512" key="#WordPress/0.0.2560.1392/2560.95.1920.1032@0.0.2560.1392" timestamp="1664171815946" />
+    <state x="234" y="409" key="ComposerDumpAutoloadDialog" timestamp="1665609346766">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="234" y="409" key="ComposerDumpAutoloadDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665609346766" />
+    <state x="719" y="429" key="ComposerInitDialogKey" timestamp="1665593101212">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="719" y="429" key="ComposerInitDialogKey/0.0.1920.1032@0.0.1920.1032" timestamp="1665593101212" />
+    <state x="286" y="254" key="FileChooserDialogImpl" timestamp="1665593482971">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="286" y="254" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1665593482971" />
+    <state x="381" y="343" key="FileChooserDialogImpl/0.0.2560.1392/2560.95.1920.1032@0.0.2560.1392" timestamp="1664171814084" />
+    <state width="775" height="449" key="GridCell.Tab.0.bottom" timestamp="1665611376430">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="775" height="449" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1665611376430" />
+    <state width="775" height="449" key="GridCell.Tab.0.center" timestamp="1665611376430">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="775" height="449" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1665611376430" />
+    <state width="775" height="449" key="GridCell.Tab.0.left" timestamp="1665611376430">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="775" height="449" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1665611376430" />
+    <state width="775" height="449" key="GridCell.Tab.0.right" timestamp="1665611376430">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="775" height="449" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1665611376430" />
+    <state x="374" y="443" key="NewPhpFileDialog" timestamp="1665611591139">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="374" y="443" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665611591139" />
+    <state x="461" y="158" key="SettingsEditor" timestamp="1665608681948">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="158" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1665608681948" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>E:\AppServ\www\wordpress</wordpressPath>
+  </component>
+</project>

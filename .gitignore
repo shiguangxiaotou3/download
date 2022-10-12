@@ -1,7 +1,2 @@
-/assets/*
-composer.lock
-.idea
-/vendor/*
-*.Ds_Store
-/test.txt
-/ip.txt
+/vendor
+/public/assets
