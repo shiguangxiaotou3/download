@@ -239,6 +239,6 @@ html;
 
 }
 
-外网面板地址: http://222.186.56.30:55889/b9417873
-username: gdvbspwt
-password: ec6ddb44
+//外网面板地址: http://222.186.56.30:55889/b9417873
+//username: gdvbspwt
+//password: ec6ddb44
