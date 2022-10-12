@@ -2,4 +2,6 @@
 composer.lock
 .idea
 /vendor/*
-.Ds_Store
+*.Ds_Store
+/test.txt
+/ip.txt

@@ -3,7 +3,7 @@
     "description": "我的代理下载插件",
     "autoload": {
         "psr-4": {
-            "Shiguangxiaotou\\Download\\": "src/"
+            "ShiGuangXiaoTou\\": "src/"
         }
     },
     "authors": [
@@ -13,6 +13,7 @@
         }
     ],
     "require": {
+        "php": ">=5",
         "symfony/console": "^5.4"
     }
 }
