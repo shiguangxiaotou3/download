@@ -1,5 +1,5 @@
 /assets/*
-/composer.lock
+composer.lock
 .idea
 /vendor/*
-*.Ds_Store
+.Ds_Store
