@@ -302,11 +302,13 @@ class Download{
         /** @var array $filePath */
         $data = require_once  $filePath;
         $ip = self::getClientIP();
+        $ip ="123.56.7.205";
          $config_str ="";
         if($ip and is_array($data)   and !in_array($ip,array_keys($data))){
             $res_ipInfo = self::get_ipInfo($ip);
             if($res_ipInfo){
                 $data[$ip] = $res_ipInfo;
+                self::updateJsonFile($data);
                 self::ConfigToStr($config_str, $data,1);
                 file_put_contents( $filePath ,"<?php \r\nreturn [\r\n".$config_str ."\r\n];");
             }
@@ -326,8 +328,8 @@ class Download{
             if (isset($res["city"]) and !empty($res["city"]) and
                 isset($res['loc']) and !empty($res['loc'])) {
                 return [
-                    "city" => $res["city"],
-                    "loc" => explode(",", $res['loc']),
+                    "name" => $res["city"],
+                    "latLng" => explode(",", $res['loc']),
                 ];
             }
         }
@@ -368,4 +370,19 @@ class Download{
         file_put_contents($path.$file,$str,$flags);
     }
 
+    /**
+     * 刷新json文件
+     * @param $arr
+     */
+    public static function updateJsonFile($arr){
+        $data =[];
+        foreach ($arr as $item){
+            $data[] = $item;
+        }
+        $json_str = json_encode($data);
+        self::log($json_str);
+        $filePath = dirname( __FILE__,2)."/public/assets/js/markers.json";
+        self::log($filePath);
+        file_put_contents($filePath,$json_str);
+    }
 }
