@@ -4,15 +4,16 @@ namespace ShiGuangXiaoTou;
 
 use ShiGuangXiaoTou\PrintTable;
 
-class Download
-{
+class Download{
     public $basePath ;
     public $assetsPath ;
     public $savePath;
     public $url;
     public $domain;
     public $ignore;
+    private $ipInfo=[];
     public $files = [];
+    const ipIgnore =["127.0.0.1","192.168.*"];
 
     /**
      * Download constructor.
@@ -24,6 +25,7 @@ class Download
         $this->savePath = $config["savePath"];
         $this->domain = $config["domain"];
         $this->ignore = $config["ignore"];
+        $this->ipInfo = $config["ipInfo"];
 
     }
 
@@ -35,19 +37,12 @@ class Download
         if ($_POST) {
             $this->getArgs();
         } else {
-            $str = <<<html
-<h1>时光小偷的代理下载插件:1.0.0</h1>\r\n
-<b>你可以使用控制台或者浏览器,创建下载任务和下载文件</b>\r\n
-以下命令可以使用:\r\n
-  Download_Task(post)                        创建下载任务\r\n
-    eq:http://{$this->domain}?Download_Task={url}&save_path=.\/test.png\r\n
-  download file(get)                         下载文件\r\n
-    eq:http://{$this->domain}test.txt\r\n\r\n
-文件列表:\r\n
-html;
-            $this->getAssetsInfo();
-            $str .= PrintTable::Print_table($this->files, ['目录', '文件名', '拓展名', "大小", '类型', '访问时间', '权限']);
-            echo "<pre><code>$str</code></pre>";
+            $this->Visits();
+            $th = ['目录', '文件名', '拓展名', "大小", '类型', '访问时间', '权限'];
+            $this->getAssetsInfo($this->assetsPath);
+            $files =$this->files;
+            $domain =$this->domain;
+            self::view('index',compact("th","files","domain"));
         }
     }
 
@@ -213,6 +208,12 @@ html;
         return (substr($str, -$length) == $suffix);
     }
 
+    /**
+     * 下载文件
+     * @param $url
+     * @param $save_path
+     * @param string $path
+     */
     public function download($url, $save_path, $path = "C:/AppServ/www/download/assets")
     {
         set_time_limit(0);
@@ -264,7 +265,7 @@ html;
     /**
      * 记录访问者ip
      */
-    public function getClientIP()
+    public static function getClientIP()
     {
         if (getenv("HTTP_CLIENT_IP")) {
             $ip = getenv("HTTP_CLIENT_IP");
@@ -273,9 +274,98 @@ html;
         } elseif (getenv("REMOTE_ADDR")) {
             $ip = getenv("REMOTE_ADDR");
         } else {
-            $ip = "Unknow";
+            return false;
         }
         return $ip;
+    }
+
+
+    /**
+     * 显示视图
+     * @param $view
+     * @param $data
+     */
+    public static function view($view,$data){
+        extract($data);
+        include "./../views/index.php";
+    }
+
+    /**
+     * 解析访问这ip 并转换为物理地址
+     */
+    public  function  Visits(){
+        $ipInfo =$this->ipInfo;
+        $filePath = dirname( __FILE__,2)."/runtime/markers.php";
+        if(!file_exists( $filePath)){
+            file_put_contents( $filePath ,"<?php \r\nreturn [\r\n];");
+        }
+        /** @var array $filePath */
+        $data = require_once  $filePath;
+        $ip = self::getClientIP();
+         $config_str ="";
+        if($ip and is_array($data)   and !in_array($ip,array_keys($data))){
+            $res_ipInfo = self::get_ipInfo($ip);
+            if($res_ipInfo){
+                $data[$ip] = $res_ipInfo;
+                self::ConfigToStr($config_str, $data,1);
+                file_put_contents( $filePath ,"<?php \r\nreturn [\r\n".$config_str ."\r\n];");
+            }
+        }
+    }
+
+    /**
+     * 解析ip的物理地址
+     * @param $ip
+     * @return array|bool
+     */
+    public function get_ipInfo($ip){
+        $ipInfo = $this->ipInfo;
+        $str = file_get_contents($ipInfo['url'] . $ip . "/?token=" . $ipInfo['token']);
+        if ($str) {
+            $res = json_decode($str, true);
+            if (isset($res["city"]) and !empty($res["city"]) and
+                isset($res['loc']) and !empty($res['loc'])) {
+                return [
+                    "city" => $res["city"],
+                    "loc" => explode(",", $res['loc']),
+                ];
+            }
+        }
+        return false;
+    }
+
+    /**
+     * 生产php配置文件字符串
+     * @param $str
+     * @param $array
+     * @param int $space
+     */
+    public static function ConfigToStr(&$str, $array, $space = 0){
+        $s ='' ;
+        for($i=0; $i<$space*4;$i++){
+            $s .= " ";
+        }
+        foreach($array as $k=>$item){
+            if(is_array($item)){
+                $str .= "$s'$k' => [\r\n";
+                $str .= self::ConfigToStr($str, $item, $space+1);
+                $str .= "$s],\r\n";
+            }else{
+                $item =str_replace('\'','\\\'',$item);
+                $str .= "$s'$k' => '$item',\r\n";
+            }
+        }
+    }
+
+    /**
+     * 记录日志
+     * @param $str
+     * @param string $file
+     * @param int $flags
+     */
+    public  static function log($str,$file ="ip.txt",$flags=FILE_APPEND){
+        $path = dirname( __FILE__,2)."/runtime/";
+        file_put_contents($path.$file,$str,$flags);
     }
 
 }

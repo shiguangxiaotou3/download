@@ -1,0 +1,35 @@
+body{
+    background-color: #e0e0e0;
+}
+.wrapper{
+    width: 940px;min-height: 1330px;
+    margin: 20px auto;
+    padding: 50px 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(230,230,230);
+}
+.header{
+    padding: 0 10px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 8px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.hljs .tools{
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 16px;height: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+#world-map-markers{
+    border: 1px solid rgb(220,220,220);
+}
+pre{
+    margin: 0 0;
+}
+p{
+    margin: 10px ;
+}
