@@ -1,3 +1,5 @@
 /vendor
 /public/assets/files/*
+/runtime/*
+/public/assets/js/markers.json
 /.idea

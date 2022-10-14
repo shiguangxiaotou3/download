@@ -1,8 +1,8 @@
 <?php
 
-namespace ShiGuangXiaoTou;
+namespace shiguangxiaotou;
 
-use ShiGuangXiaoTou\PrintTable;
+use shiguangxiaotou\PrintTable;
 
 class Download{
     public $basePath ;
@@ -13,7 +13,7 @@ class Download{
     public $ignore;
     private $ipInfo=[];
     public $files = [];
-    const ipIgnore =["127.0.0.1","192.168.*"];
+//    const ipIgnore =["127.0.0.1","192.168.*"];
 
     /**
      * Download constructor.
@@ -279,15 +279,23 @@ class Download{
         return $ip;
     }
 
-
     /**
      * 显示视图
      * @param $view
      * @param $data
+     * @param layouts
+     * @param $script
      */
-    public static function view($view,$data){
-        extract($data);
-        include "./../views/index.php";
+    public static function view($view,$data,$layouts="",$script=""){
+        if(empty($layouts)){
+            extract($data);
+            include "./../views/".$view.".php";
+        }else{
+            $content = include "./../views/".$view.".php";
+            $script['content']= $content;
+            extract($script);
+            include "./../views/".$layouts.".php";
+        }
     }
 
     /**
