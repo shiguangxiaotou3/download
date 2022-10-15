@@ -3,4 +3,8 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="ProjectResources">
+    <resource url="http://soap.sforce.com/2006/04/metadata" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
+    <resource url="urn:metadata.tooling.soap.sforce.com" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
+  </component>
 </project>

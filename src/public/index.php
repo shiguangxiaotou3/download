@@ -1,16 +1,23 @@
 <?php
-define("SRC",dirname(__FILE__,2));
-define("VENDOR",dirname(__FILE__,3)."/vendor");
-define('YII_DEBUG', true);
+
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENV') or define('YII_ENV', 'dev');
 
 
 
 require __DIR__ . '/../../vendor/autoload.php';
 require __DIR__ . '/../../vendor/yiisoft/yii2/Yii.php';
+require __DIR__ . '/../../bootstrap.php';
 require __DIR__ . '/../config/bootstrap.php';
+
+if(YII_DEBUG){
+    require __DIR__. '/../../unit/debug.php';
+}
 
 
 $config = yii\helpers\ArrayHelper::merge(
+    require __DIR__ . '/../../main.php',
+    require __DIR__ . '/../../main-local.php',
     require __DIR__ . '/../config/main.php',
     require __DIR__ . '/../config/main-local.php'
 );

@@ -1,7 +1,8 @@
 <?php
     /* @var $this yii\web\View */
     /* @var $content string */
-\ShiGuangXiaoTou\assets\AppAsset::register($this);
+//echo Yii::getAlias("@web");
+\ShiGuangXiaoTou\assets\MyAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

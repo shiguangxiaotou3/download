@@ -1,5 +1,7 @@
 /vendor
-/public/assets/files/*
-/runtime/*
-/public/assets/js/markers.json
+/src/assets/files/*
+/src/runtime/*
+/src/assets/js/markers.json
 /.idea
+/unit/*
+*/main-local.php

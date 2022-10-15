@@ -1,8 +1,8 @@
 <?php
 
-namespace shiguangxiaotou;
+namespace ShiGuangXiaoTou;
 
-use shiguangxiaotou\PrintTable;
+use ShiGuangXiaoTou\PrintTable;
 
 class Download{
     public $basePath ;

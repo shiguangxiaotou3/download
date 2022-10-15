@@ -11,8 +11,8 @@
 //HTML;
 //
 //define("ASSETS","./assets/");
-echo Yii::getAlias("@webroot");
-die();
+//echo Yii::getAlias("@webroot");
+//die();
 ?>
 
 <!--<!DOCTYPE html>-->
@@ -27,6 +27,7 @@ die();
 <!--    <script>hljs.initHighlightingOnLoad();</script>-->
 <!--</head>-->
 <!--<body>-->
+
 <div class="wrapper">
     <h1>时光小偷的代理下载插件:1.0.0</h1>
     <p><b>你可以使用控制台或者浏览器,创建下载任务和下载文件</b></p>
