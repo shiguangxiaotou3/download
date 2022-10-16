@@ -3,7 +3,7 @@
     "description": "我的代理下载插件",
     "autoload": {
         "psr-4": {
-            "ShiGuangXiaoTou\\": "src/"
+            "ShiGuangXiaoTou\\": "frontend/"
         }
     },
     "scripts": {
