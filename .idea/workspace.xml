@@ -582,7 +582,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/bin/markdown&#10;/Library/WebServer/Documents/download/vendor/guzzlehttp/psr7/composer.json" />
-    <property name="javascript.nodejs.core.library.configured.version" value="16.18.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="18.10.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.66" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -591,13 +591,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript 调试.yii.php">
+  <component name="RunManager" selected="JavaScript Debug.yii.php">
     <configuration name="yii.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/download/yii.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -643,7 +643,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 调试.yii.php" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.test" />
