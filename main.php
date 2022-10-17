@@ -7,3 +7,20 @@ return [
         '@npm'   => '@vendor/npm-asset',
     ],
 ];
+
+
+/*
+ *
+ * "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+ *
+ */

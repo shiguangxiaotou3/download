@@ -1,8 +1,11 @@
 <?php
+use ShiGuangXiaoTou\assets\MyAsset;
+
     /* @var $this yii\web\View */
     /* @var $content string */
 //echo Yii::getAlias("@web");
-\ShiGuangXiaoTou\assets\MyAsset::register($this);
+MyAsset::register($this);
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

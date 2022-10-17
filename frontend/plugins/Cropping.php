@@ -1,13 +1,11 @@
 <?php
 
 
-namespace shiguangxiaotou;
+namespace ShiGuangXiaoTou;
 
 
 class Cropping
 {
-
-
     /**
      * @param $img_path
      * @param int $x

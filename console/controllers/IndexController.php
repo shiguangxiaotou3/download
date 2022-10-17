@@ -87,7 +87,6 @@ JSON;
      * @param string $tag 分类
      */
     public static function  json_to_js_a($path, $tag ="city"){
-       ;
         $base_path ="./assets/jvectormap/maps/a/";
 
         $files  = scandir($path);

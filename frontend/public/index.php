@@ -10,10 +10,6 @@ require __DIR__ . '/../../vendor/yiisoft/yii2/Yii.php';
 require __DIR__ . '/../../bootstrap.php';
 require __DIR__ . '/../config/bootstrap.php';
 
-if(YII_DEBUG){
-    require __DIR__. '/../../unit/debug.php';
-}
-
 
 $config = yii\helpers\ArrayHelper::merge(
     require __DIR__ . '/../../main.php',

@@ -1,741 +1,436 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad806044-ae39-4ede-8713-28c63f66d0d4" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/index.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/js/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/js/jquery-jvectormap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/js/jquery-mousewheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/language/cn_merc/cn/language.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/language/us_aea/en/language.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/language/world_mill/en/language.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/africa/dist/africaMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/africa/dist/africaMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/algeria/dist/dzMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/asia/dist/asiaMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/asia/dist/asiaMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/australia/dist/auMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/australia/dist/auMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/austria/dist/atMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/austria/dist/atMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/belgium/dist/beMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/belgium/dist/beMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/brazil/dist/brMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/canada/dist/caLcc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/canada/dist/caMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/canada/dist/caMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/china/dist/cnMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/china/dist/cnMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/colombia/dist/coMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/colombia/dist/coMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/continents/dist/continentsMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/continents/dist/continentsMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/denmark/dist/dkMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/denmark/dist/dkMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/europe/dist/europeMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/europe/dist/europeMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/france/dist/frMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/france/dist/frMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/franceregions/dist/frRegionsMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/franceregions/dist/frRegionsMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/franceregions2016/dist/frRegions_2016Merc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/franceregions2016/dist/frRegions_2016Mill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/india/dist/inMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/india/dist/inMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/iran/dist/iranMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/italy/dist/itMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/italy/dist/itMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/italyregions/dist/itRegionsMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/italyregions/dist/itRegionsMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/netherlands/dist/nlMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/netherlands/dist/nlMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/newyork/dist/usNyNewYorkMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/newyork/dist/usNyNewYorkMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/newzealand/dist/nzMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/newzealand/dist/nzMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/northamerica/dist/northAmericaMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/northamerica/dist/northAmericaMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/norway/dist/noMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/norway/dist/noMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/oceania/dist/oceaniaMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/oceania/dist/oceaniaMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/poland/dist/plMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/poland/dist/plMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/portugal/dist/ptMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/portugal/dist/ptMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/puertorico/dist/puertoRico.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/russia/dist/ruMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/russia/dist/ruMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/russiafederaldistricts/dist/ruFdMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/russiafederaldistricts/dist/ruFdMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/southafrica/dist/zaMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/southafrica/dist/zaMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/southkorea/dist/krMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/southkorea/dist/krMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/spain/dist/esMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/spain/dist/esMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/sweden/dist/seMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/sweden/dist/seMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/switzerland/dist/chMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/switzerland/dist/chMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/thailand/dist/thMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/thailand/dist/thMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/turkey/dist/trMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/ukregions/dist/ukRegionsMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/ukregions/dist/ukRegionsMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/unitedkingdomcountries/dist/ukCountriesMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/unitedkingdomcountries/dist/ukCountriesMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/venezuela/dist/veMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/venezuela/dist/veMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/world/dist/worldMerc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/a/world/dist/worldMill.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/africa-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/africa-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ar-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ar-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/asia-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/asia-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/at-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/at-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/au-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/au-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/be-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/be-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ca-lcc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ca-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ca-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ch-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ch-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/cn-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/cn-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/co-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/co-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/continents-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/continents-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/de-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/de-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/dk-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/dk-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/es-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/es-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/europe-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/europe-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/fr-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/fr-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/fr_regions-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/fr_regions-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/fr_regions_2016-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/fr_regions_2016-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/in-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/in-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/it-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/it-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/it_regions-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/it_regions-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/kr-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/kr-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/nl-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/nl-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/no-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/no-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/north_america-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/north_america-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/nz-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/nz-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/oceania-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/oceania-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/pl-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/pl-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/pt-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/pt-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ru-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ru-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ru_fd-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ru_fd-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/se-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/se-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/south_america-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/south_america-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/th-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/th-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/uk_countries-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/uk_countries-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/uk_regions-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/uk_regions-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/us-aea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/us-il-chicago-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/us-il-chicago-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/us-lcc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/us-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/us-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/us-ny-newyork-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/us-ny-newyork-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ve-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/ve-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/world-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/world-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/za-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/b/za-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/base/dist/cn_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/base/dist/us_aea_en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/base/dist/world_mill_en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/eq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/eq.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/lib/dist/jquery-jvectormap-data-us-lcc-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/lib/dist/jquery-jvectormap-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/lib/dist/jquery-jvectormap-us-aea-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/lib/dist/jquery-jvectormap-us-lcc-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/lib/dist/jquery-jvectormap-us-merc-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/lib/dist/jquery-jvectormap-us-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/lib/dist/jquery-jvectormap-world-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/africa_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/ar_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/asia_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/au_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/brazil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/ca_lcc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/ch_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/co_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/continents_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/de_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/es_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/europe_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/fr_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/fr_regions_2016_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/fr_regions_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/in_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/indonesia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/kr_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/north_america_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/oceania_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/ru_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/se_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/south_america_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/th_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/us_aea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/ve_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/vietnam.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/react/world_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_mill_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/algeria/dz_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/algeria/dz_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_mill_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/australia/au_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/australia/au_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/australia/au_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/australia/au_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/austria/at_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/austria/at_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/austria/at_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/austria/at_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/belgium/be_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/belgium/be_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/belgium/be_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/belgium/be_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/brazil.js/brazil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/brazil.js/brazil_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/brazil/br_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/brazil/br_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_lcc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_lcc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/china/cn_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/china/cn_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/china/cn_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/china/cn_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/colombia/co_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/colombia/co_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/colombia/co_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/colombia/co_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_mill_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/denmark/dk_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/denmark/dk_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/denmark/dk_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/denmark/dk_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_mill_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/france/fr_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/france/fr_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/france/fr_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/france/fr_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions/fr_regions_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions/fr_regions_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions/fr_regions_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions/fr_regions_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions2016/fr_regions_2016_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions2016/fr_regions_2016_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions2016/fr_regions_2016_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions2016/fr_regions_2016_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/india/in_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/india/in_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/india/in_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/india/in_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/indonesia.js/indonesia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/indonesia.js/indonesia_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/iran/iran_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/iran/iran_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italy/it_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italy/it_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italy/it_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italy/it_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italyregions/it_regions_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italyregions/it_regions_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italyregions/it_regions_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italyregions/it_regions_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/netherlands/nl_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/netherlands/nl_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/netherlands/nl_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/netherlands/nl_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newyork/us-ny-newyork_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newyork/us-ny-newyork_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newyork/us-ny-newyork_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newyork/us-ny-newyork_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newzealand/nz_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newzealand/nz_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newzealand/nz_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newzealand/nz_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/northamerica/north_america_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/northamerica/north_america_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/northamerica/north_america_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/northamerica/north_america_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/norway/no_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/norway/no_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/norway/no_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/norway/no_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_mill_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/poland/pl_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/poland/pl_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/poland/pl_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/poland/pl_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/portugal/pt_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/portugal/pt_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/portugal/pt_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/portugal/pt_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/puertorico/puerto_rico.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/puertorico/puerto_rico_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russia/ru_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russia/ru_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russia/ru_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russia/ru_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russiafederaldistricts/ru_fd_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russiafederaldistricts/ru_fd_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russiafederaldistricts/ru_fd_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russiafederaldistricts/ru_fd_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southafrica/za_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southafrica/za_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southafrica/za_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southafrica/za_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southkorea/kr_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southkorea/kr_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southkorea/kr_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southkorea/kr_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/spain/es_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/spain/es_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/spain/es_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/spain/es_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/sweden/se_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/sweden/se_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/sweden/se_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/sweden/se_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/switzerland/ch_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/switzerland/ch_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/switzerland/ch_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/switzerland/ch_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/thailand/th_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/thailand/th_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/thailand/th_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/thailand/th_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/turkey/tr_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/turkey/tr_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/ukregions/uk_regions_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/ukregions/uk_regions_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/ukregions/uk_regions_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/ukregions/uk_regions_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/unitedkingdomcountries/uk_countries_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/unitedkingdomcountries/uk_countries_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/unitedkingdomcountries/uk_countries_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/unitedkingdomcountries/uk_countries_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/venezuela/ve_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/venezuela/ve_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/venezuela/ve_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/venezuela/ve_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/vietnam.js/vietnam.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/vietnam.js/vietnam_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_mill_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/at/at-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/at/at-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/at/at-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/at/at-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/be/be-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/be/be-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/be/be-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/be/be-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-lcc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-lcc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca_lcc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca_lcc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/cn/cn-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/cn/cn-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/cn/cn-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/cn/cn-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/dk/dk-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/dk/dk-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/dk/dk-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/dk/dk-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it_regions-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it_regions-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it_regions-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it_regions-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nl/nl-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nl/nl-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nl/nl-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nl/nl-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/no/no-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/no/no-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/no/no-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/no/no-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nz/nz-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nz/nz-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nz/nz-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nz/nz-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pl/pl-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pl/pl-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pl/pl-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pl/pl-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pt/pt-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pt/pt-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pt/pt-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pt/pt-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_fd-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_fd-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_fd-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_fd-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th_mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th_mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_countries-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_countries-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_countries-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_countries-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_regions-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_regions-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_regions-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_regions-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-aea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-aea_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-il-chicago-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-il-chicago-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-il-chicago-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-il-chicago-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-lcc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-lcc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-ny-newyork-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-ny-newyork-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-ny-newyork-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-ny-newyork-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us_aea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us_aea_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve_merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve_merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/za/za-merc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/za/za-merc_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/za/za-mill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/za/za-mill_language/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/controllers/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/runtime/logs/app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/AppAsset.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/MyAsset.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/config/Seo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/config/main-local.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/controllers/Download.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/controllers/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/controllers/TestController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/models/PrintTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/plugins/Cropping.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.activeForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.captcha.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.gridView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/Telegram 电报.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/download.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/ip.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/order.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/vmess.md.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/w.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/wordpress route 路由.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/讲解.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/assets/files/钥匙.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/index/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/layouts/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/widgets/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yii" afterDir="false" />
+    <list default="true" id="ad806044-ae39-4ede-8713-28c63f66d0d4" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/a.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/controllers/PdfController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/download.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/converter/converter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/converter/simplifier.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/jquery-jvectormap-cn-merc-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/jquery-jvectormap-usa-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/jquery-jvectormap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/jquery-mousewheel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/jvectormap.jquery.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/abstract-canvas-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/abstract-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/abstract-shape-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/color-scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/data-series.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/jvectormap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/numeric-scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/ordinal-scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/proj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/simple-scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/svg-canvas-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/svg-circle-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/svg-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/svg-group-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/svg-path-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/svg-shape-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/vector-canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/vml-canvas-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/vml-circle-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/vml-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/vml-group-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/vml-path-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/vml-shape-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/lib/world-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/assets/jquery-1.8.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/assets/jquery-jvectormap-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/assets/jquery-jvectormap-us-aea-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/assets/jquery-jvectormap-us-lcc-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/assets/jquery-jvectormap-us-merc-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/assets/jquery-jvectormap-us-mill-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/assets/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/build.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/custom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/markers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jvectormap/tests/reverse-projection.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/index.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/language/cn_merc/cn/language.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/language/us_aea/en/language.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/language/world_mill/en/language.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_mill_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/africa/africa_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/algeria/dz_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/algeria/dz_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_mill_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/asia/asia_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/australia/au_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/australia/au_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/australia/au_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/australia/au_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/austria/at_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/austria/at_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/austria/at_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/austria/at_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/belgium/be_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/belgium/be_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/belgium/be_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/belgium/be_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/brazil.js/brazil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/brazil.js/brazil_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/brazil/br_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/brazil/br_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_lcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_lcc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/canada/ca_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/china/cn_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/china/cn_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/china/cn_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/china/cn_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/colombia/co_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/colombia/co_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/colombia/co_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/colombia/co_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_mill_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/continents/continents_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/denmark/dk_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/denmark/dk_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/denmark/dk_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/denmark/dk_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_mill_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/europe/europe_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/france/fr_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/france/fr_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/france/fr_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/france/fr_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions/fr_regions_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions/fr_regions_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions/fr_regions_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions/fr_regions_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions2016/fr_regions_2016_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions2016/fr_regions_2016_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions2016/fr_regions_2016_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/franceregions2016/fr_regions_2016_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/india/in_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/india/in_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/india/in_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/india/in_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/indonesia.js/indonesia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/indonesia.js/indonesia_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/iran/iran_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/iran/iran_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italy/it_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italy/it_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italy/it_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italy/it_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italyregions/it_regions_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italyregions/it_regions_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italyregions/it_regions_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/italyregions/it_regions_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/netherlands/nl_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/netherlands/nl_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/netherlands/nl_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/netherlands/nl_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newyork/us-ny-newyork_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newyork/us-ny-newyork_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newyork/us-ny-newyork_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newyork/us-ny-newyork_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newzealand/nz_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newzealand/nz_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newzealand/nz_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/newzealand/nz_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/north_america/north_america_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/northamerica/north_america_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/northamerica/north_america_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/northamerica/north_america_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/northamerica/north_america_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/norway/no_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/norway/no_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/norway/no_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/norway/no_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_mill_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/oceania/oceania_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/poland/pl_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/poland/pl_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/poland/pl_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/poland/pl_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/portugal/pt_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/portugal/pt_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/portugal/pt_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/portugal/pt_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/puertorico/puerto_rico.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/puertorico/puerto_rico_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russia/ru_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russia/ru_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russia/ru_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russia/ru_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russiafederaldistricts/ru_fd_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russiafederaldistricts/ru_fd_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russiafederaldistricts/ru_fd_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/russiafederaldistricts/ru_fd_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/south_america/south_america_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southafrica/za_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southafrica/za_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southafrica/za_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southafrica/za_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southkorea/kr_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southkorea/kr_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southkorea/kr_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/southkorea/kr_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/spain/es_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/spain/es_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/spain/es_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/spain/es_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/sweden/se_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/sweden/se_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/sweden/se_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/sweden/se_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/switzerland/ch_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/switzerland/ch_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/switzerland/ch_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/switzerland/ch_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/thailand/th_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/thailand/th_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/thailand/th_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/thailand/th_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/turkey/tr_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/turkey/tr_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/ukregions/uk_regions_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/ukregions/uk_regions_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/ukregions/uk_regions_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/ukregions/uk_regions_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/unitedkingdomcountries/uk_countries_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/unitedkingdomcountries/uk_countries_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/unitedkingdomcountries/uk_countries_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/unitedkingdomcountries/uk_countries_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/venezuela/ve_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/venezuela/ve_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/venezuela/ve_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/venezuela/ve_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/vietnam.js/vietnam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/vietnam.js/vietnam_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_mill_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/city/world/world_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ar/ar_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/at/at-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/at/at-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/at/at-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/at/at-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/au/au_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/be/be-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/be/be-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/be/be-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/be/be-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-lcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-lcc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca_lcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ca/ca_lcc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ch/ch_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/cn/cn-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/cn/cn-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/cn/cn-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/cn/cn-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/co/co_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/de/de_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/dk/dk-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/dk/dk-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/dk/dk-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/dk/dk-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/es/es_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_2016_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/fr/fr_regions_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/in/in_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it_regions-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it_regions-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it_regions-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/it/it_regions-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/kr/kr_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nl/nl-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nl/nl-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nl/nl-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nl/nl-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/no/no-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/no/no-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/no/no-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/no/no-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nz/nz-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nz/nz-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nz/nz-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/nz/nz-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pl/pl-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pl/pl-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pl/pl-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pl/pl-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pt/pt-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pt/pt-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pt/pt-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/pt/pt-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_fd-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_fd-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_fd-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_fd-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ru/ru_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/se/se_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th_mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/th/th_mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_countries-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_countries-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_countries-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_countries-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_regions-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_regions-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_regions-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/uk/uk_regions-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-aea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-aea_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-il-chicago-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-il-chicago-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-il-chicago-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-il-chicago-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-lcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-lcc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-ny-newyork-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-ny-newyork-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-ny-newyork-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us-ny-newyork-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us_aea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/us/us_aea_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve-mill_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve_merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/ve/ve_merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/za/za-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/za/za-merc_language/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/za/za-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jvectormap/maps/run/region/za/za-mill_language/en.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/AppAsset.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MyAsset.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/Seo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/main-local.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Download.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/IndexController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/TestController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/PrintTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/Cropping.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/8aed8f72/yii.activeForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/8aed8f72/yii.captcha.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/8aed8f72/yii.gridView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/8aed8f72/yii.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/8aed8f72/yii.validation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/d9d708da/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/d9d708da/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/d9d708da/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/d9d708da/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/d9d708da/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/d9d708da/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/Telegram 电报.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/download.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/ip.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/order.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/vmess.md.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/w.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/wordpress route 路由.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/讲解.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/assets/files/钥匙.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/runtime/logs/app.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/layouts/head.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/layouts/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/Tag.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/console/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/MyAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/MyAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/plugins/Cropping.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/plugins/Cropping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.activeForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.captcha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.gridView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/8aed8f72/yii.validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/d9d708da/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/Telegram 电报.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/Telegram 电报.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/download.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/download.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/ip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/ip.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/order.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/order.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/vmess.md.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/vmess.md.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/w.sql" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/w.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/wordpress route 路由.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/wordpress route 路由.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/讲解.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/讲解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/files/钥匙.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/files/钥匙.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/index/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/index/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii" beforeDir="false" afterPath="$PROJECT_DIR$/yii" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -772,9 +467,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
       <set>
+        <option value="https://github.com/shiguangxiaotou3/download" />
         <option value="https://github.com/shiguangxiaotou3/download.git" />
       </set>
     </option>
@@ -854,23 +558,32 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/rize/uri-template" />
       <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/smalot/pdfparser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
     </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="2FGpMjTdNbePKLyLWqPKpseWmuS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="18.10.0" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/bin/markdown&#10;/Library/WebServer/Documents/download/vendor/guzzlehttp/psr7/composer.json" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.18.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.66" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -878,11 +591,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="ComposerJson.settings" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.yii.php">
+  <component name="RunManager" selected="JavaScript 调试.yii.php">
     <configuration name="yii.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/download/yii.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -928,7 +643,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.yii.php" />
+        <item itemvalue="JavaScript 调试.yii.php" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.test" />
@@ -936,6 +651,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -960,118 +676,66 @@
       <workItem from="1665825881290" duration="6134000" />
       <workItem from="1665832082873" duration="16397000" />
       <workItem from="1665863537936" duration="40668000" />
+      <workItem from="1665923710838" duration="33000" />
+      <workItem from="1665923749928" duration="19000" />
+      <workItem from="1665923869522" duration="1892000" />
+      <workItem from="1665935887674" duration="3500000" />
+      <workItem from="1665978720307" duration="4528000" />
+      <workItem from="1665989539304" duration="4255000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Library/WebServer/Documents/download/console" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="625" y="154" key="#HTML" timestamp="1665907075297">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="625" y="154" key="#HTML/0.0.1920.1032@0.0.1920.1032" timestamp="1665907075297" />
-    <state x="10" y="175" key="#Illuminated_Cloud" timestamp="1665608618542">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="10" y="175" key="#Illuminated_Cloud/0.0.1920.1032@0.0.1920.1032" timestamp="1665608618542" />
-    <state x="209" y="193" key="#Inspections" timestamp="1665829191063">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="209" y="193" key="#Inspections/0.0.1920.1032@0.0.1920.1032" timestamp="1665829191063" />
-    <state x="219" y="512" key="#WordPress" timestamp="1664171815946">
-      <screen x="0" y="0" width="2560" height="1392" />
-    </state>
-    <state x="219" y="512" key="#WordPress/0.0.2560.1392/2560.95.1920.1032@0.0.2560.1392" timestamp="1664171815946" />
-    <state x="379" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1665826996976">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="379" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1665826996976" />
-    <state x="210" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1665840356743">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="210" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665840356743" />
-    <state x="711" y="362" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1665865416232">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="711" y="362" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1032@0.0.1920.1032" timestamp="1665865416232" />
-    <state x="234" y="409" key="ComposerDumpAutoloadDialog" timestamp="1665609346766">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="234" y="409" key="ComposerDumpAutoloadDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665609346766" />
-    <state x="719" y="429" key="ComposerInitDialogKey" timestamp="1665593101212">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="719" y="429" key="ComposerInitDialogKey/0.0.1920.1032@0.0.1920.1032" timestamp="1665593101212" />
-    <state x="286" y="254" key="FileChooserDialogImpl" timestamp="1665865647334">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="286" y="254" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1665865647334" />
-    <state x="381" y="343" key="FileChooserDialogImpl/0.0.2560.1392/2560.95.1920.1032@0.0.2560.1392" timestamp="1664171814084" />
-    <state width="1355" height="448" key="GridCell.Tab.0.bottom" timestamp="1665828926363">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1355" height="448" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1665828926363" />
-    <state width="1355" height="448" key="GridCell.Tab.0.center" timestamp="1665828926363">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1355" height="448" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1665828926363" />
-    <state width="1355" height="448" key="GridCell.Tab.0.left" timestamp="1665828926363">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1355" height="448" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1665828926363" />
-    <state width="1355" height="448" key="GridCell.Tab.0.right" timestamp="1665828926363">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1355" height="448" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1665828926363" />
-    <state width="1355" height="448" key="GridCell.Tab.1.bottom" timestamp="1665828926364">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1355" height="448" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1665828926364" />
-    <state width="1355" height="448" key="GridCell.Tab.1.center" timestamp="1665828926363">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1355" height="448" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1665828926363" />
-    <state width="1355" height="448" key="GridCell.Tab.1.left" timestamp="1665828926363">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1355" height="448" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1665828926363" />
-    <state width="1355" height="448" key="GridCell.Tab.1.right" timestamp="1665828926364">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1355" height="448" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1665828926364" />
-    <state x="426" y="337" key="NewPhpClassDialog" timestamp="1665865118113">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="426" y="337" key="NewPhpClassDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665865118113" />
-    <state x="374" y="443" key="NewPhpFileDialog" timestamp="1665839557998">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="374" y="443" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665839557998" />
-    <state x="14" y="56" width="1406" height="715" key="SettingsEditor" timestamp="1665865563987">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="14" y="56" width="1406" height="715" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1665865563987" />
-    <state x="92" y="92" width="1736" height="848" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1665825009905">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="92" y="92" width="1736" height="848" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665825009905" />
-    <state x="93" y="100" width="1215" height="839" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1665829191614">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="93" y="100" width="1215" height="839" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1665829191614" />
-    <state x="143" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1665895356986">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="143" y="204" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1665895356986" />
-  </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>E:\AppServ\www\wordpress</wordpressPath>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

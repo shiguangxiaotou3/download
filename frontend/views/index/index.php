@@ -13,6 +13,7 @@
 //define("ASSETS","./assets/");
 //echo Yii::getAlias("@webroot");
 //die();
+echo Yii::getAlias("@npm");
 ?>
 
 <!--<!DOCTYPE html>-->
