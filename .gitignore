@@ -3,7 +3,7 @@
 /src/runtime/*
 /src/assets/js/markers.json
 /.idea
-/unit/*
+
 */main-local.php
 */runtime/*
 /frontend/public/assets/*
