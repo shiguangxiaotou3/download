@@ -2,8 +2,7 @@
 /src/assets/files/*
 /src/runtime/*
 /src/assets/js/markers.json
-/.idea
-
+/.idea/*
 */main-local.php
 */runtime/*
 /frontend/public/assets/*
