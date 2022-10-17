@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad806044-ae39-4ede-8713-28c63f66d0d4" name="默认更改列表" comment="默认更改列表">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/backups/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/backups/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/github.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/OnekeyUIApp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Resources/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/OnekeyUIApp/OnekeyUIApp/Resources/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/img/1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/img/2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/img/3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/language/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/translate/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github/translate/renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,6 +242,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.yii.php" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.test" />
@@ -252,7 +280,7 @@
       <workItem from="1665923869522" duration="1892000" />
       <workItem from="1665935887674" duration="3500000" />
       <workItem from="1665978720307" duration="4528000" />
-      <workItem from="1665989539304" duration="4738000" />
+      <workItem from="1665989539304" duration="10590000" />
     </task>
     <servers />
   </component>
