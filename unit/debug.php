@@ -6,7 +6,7 @@
  *
  */
 
-defined('DEBUG_FILE') or define('DEBUG_FILE', __DIR__."/log.log");
+defined('DEBUG_FILE') or define('DEBUG_FILE', __DIR__."/a.txt");
 defined('DEBUG_JSON') or define('DEBUG_JSON', __DIR__."/log.json");
 
 /**

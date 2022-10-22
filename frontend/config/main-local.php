@@ -1,3 +1,10 @@
 <?php
 
-return [];
+return [
+    'components' => [
+        'request' => [
+            "cookieValidationKey" => "asdasda",
+//            'enableCookieValidation' => true,
+        ],
+    ]
+];

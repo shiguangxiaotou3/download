@@ -6,9 +6,7 @@
             "ShiGuangXiaoTou\\": "frontend/"
         }
     },
-    "scripts": {
-        "npm": "npm install"
-    },
+
     "authors": [
         {
             "name": "shiguangxiaotou3",
@@ -16,14 +14,29 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "yiisoft/yii2": "^2.0",
+        "php": ">=7.0",
+        "yiisoft/yii2": "*",
         "google/cloud-translate": "^1.12",
-        "smalot/pdfparser": "^2.2"
+        "smalot/pdfparser": "^2.2",
+        "alikdex/yii2-crawler-detect": "1.0",
+        "maximebf/debugbar": "*"
+    },
+    "replace": {
+        "ext-mcrypt": "*",
+        "bower-asset/jquery": "*",
+        "bower-asset/inputmask":"*",
+        "bower-asset/punycode": "*",
+        "bower-asset/yii2-pjax": "*"
     },
     "config": {
         "allow-plugins": {
             "yiisoft/yii2-composer": true
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }

@@ -1,0 +1,25 @@
+{
+  "name": "github-desktop-for-mac-language-zh-cn",
+  "version": "1.0.0",
+  "description": "GitHub Desktop for Mac 汉化语言包",
+  "main": "chart.js",
+  "scripts": {
+    "test": "bash install"
+  },
+  "files": [
+    "dist","src"
+  ],
+  "keywords": [
+    "github",
+    "desktop",
+    "language",
+    "zh-CN"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shiguangxiaotou3/github-desktop-for-mac-language-zh-cn.git"
+
+  },
+  "author": "shiguangxiaotou ",
+  "license": "ISC"
+}

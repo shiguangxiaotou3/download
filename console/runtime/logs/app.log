@@ -107,3 +107,497 @@ $_SERVER = [
     ]
     'argc' => 2
 ]
+2022-10-18 12:06:36 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(/assets/publish/jvectormap-maps-data/dist/maps/city/china/cn_mill_language/zh.js): failed to open stream: No such file or directory in /Library/WebServer/Documents/download/console/controllers/IndexController.php:57
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/Library/WebSer...', 57, Array)
+#1 /Library/WebServer/Documents/download/console/controllers/IndexController.php(57): file_put_contents('/assets/publish...', '{\n    "insets":...', 8)
+#2 [internal function]: console\controllers\IndexController->actionIndex()
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('index', Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('index', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('index/index', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('index/index', Array)
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /Library/WebServer/Documents/download/yii(27): yii\base\Application->run()
+#11 {main}
+2022-10-18 12:06:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.uxa6JLVqII/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-1559'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download/assets'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666094795.9915
+    'REQUEST_TIME' => 1666094795
+    'argv' => [
+        0 => 'yii'
+        1 => 'index/index'
+    ]
+    'argc' => 2
+]
+2022-10-18 12:06:56 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(./assets/publish/jvectormap-maps-data/dist/maps/city/china/cn_mill_language/zh.js): failed to open stream: No such file or directory in /Library/WebServer/Documents/download/console/controllers/IndexController.php:57
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/Library/WebSer...', 57, Array)
+#1 /Library/WebServer/Documents/download/console/controllers/IndexController.php(57): file_put_contents('./assets/publis...', '{\n    "insets":...', 8)
+#2 [internal function]: console\controllers\IndexController->actionIndex()
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('index', Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('index', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('index/index', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('index/index', Array)
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /Library/WebServer/Documents/download/yii(27): yii\base\Application->run()
+#11 {main}
+2022-10-18 12:06:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.uxa6JLVqII/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-1559'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download/assets'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666094816.5882
+    'REQUEST_TIME' => 1666094816
+    'argv' => [
+        0 => 'yii'
+        1 => 'index/index'
+    ]
+    'argc' => 2
+]
+2022-10-18 12:08:06 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(./assets/publish/jvectormap-maps-data/dist/maps/city/china/cn_mill_language/zh.js): failed to open stream: Permission denied in /Library/WebServer/Documents/download/console/controllers/IndexController.php:57
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/Library/WebSer...', 57, Array)
+#1 /Library/WebServer/Documents/download/console/controllers/IndexController.php(57): file_put_contents('./assets/publis...', '{\n    "insets":...', 8)
+#2 [internal function]: console\controllers\IndexController->actionIndex()
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('index', Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('index', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('index/index', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('index/index', Array)
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /Library/WebServer/Documents/download/yii(27): yii\base\Application->run()
+#11 {main}
+2022-10-18 12:08:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.uxa6JLVqII/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-1559'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download/assets'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666094886.3402
+    'REQUEST_TIME' => 1666094886
+    'argv' => [
+        0 => 'yii'
+        1 => 'index/index'
+    ]
+    'argc' => 2
+]
+2022-10-18 12:14:14 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: savefile in /Library/WebServer/Documents/download/console/controllers/IndexController.php:36
+Stack trace:
+#0 /Library/WebServer/Documents/download/console/controllers/IndexController.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/Library/WebSer...', 36, Array)
+#1 [internal function]: console\controllers\IndexController->actionIndex()
+#2 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('index', Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('index', Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('index/index', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('index/index', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Library/WebServer/Documents/download/yii(27): yii\base\Application->run()
+#10 {main}
+2022-10-18 12:14:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.uxa6JLVqII/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-1559'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download/assets'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666095254.0767
+    'REQUEST_TIME' => 1666095254
+    'argv' => [
+        0 => 'yii'
+        1 => 'index/index'
+    ]
+    'argc' => 2
+]
+2022-10-18 12:19:21 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(./assets/publish/jvectormap-maps-data/dist/maps/city/china/cn_mill_language/zh.json): failed to open stream: Permission denied in /Library/WebServer/Documents/download/console/controllers/IndexController.php:64
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/Library/WebSer...', 64, Array)
+#1 /Library/WebServer/Documents/download/console/controllers/IndexController.php(64): file_put_contents('./assets/publis...', '{\n    "insets":...', 8)
+#2 [internal function]: console\controllers\IndexController->actionIndex()
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('index', Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('index', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('index/index', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('index/index', Array)
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /Library/WebServer/Documents/download/yii(27): yii\base\Application->run()
+#11 {main}
+2022-10-18 12:19:21 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.uxa6JLVqII/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-1559'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download/assets'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666095561.985
+    'REQUEST_TIME' => 1666095561
+    'argv' => [
+        0 => 'yii'
+        1 => 'index/index'
+    ]
+    'argc' => 2
+]
+2022-10-19 04:41:35 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: preg_match(): Compilation failed: range out of order in character class at offset 12 in /Library/WebServer/Documents/download/console/controllers/IndexController.php:311
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'preg_match(): C...', '/Library/WebSer...', 311, Array)
+#1 /Library/WebServer/Documents/download/console/controllers/IndexController.php(311): preg_match('/[^\\x{4E00}-\\x{...', '', 'admin')
+#2 [internal function]: console\controllers\IndexController->actionTest()
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('test', Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('test', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('index/test', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('index/test', Array)
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /Library/WebServer/Documents/download/yii(27): yii\base\Application->run()
+#11 {main}
+2022-10-19 04:41:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.uxa6JLVqII/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-427'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666154495.2241
+    'REQUEST_TIME' => 1666154495
+    'argv' => [
+        0 => 'yii'
+        1 => 'index/test'
+    ]
+    'argc' => 2
+]
+2022-10-19 04:42:33 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: preg_replace(): Compilation failed: range out of order in character class at offset 12 in /Library/WebServer/Documents/download/console/controllers/IndexController.php:311
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'preg_replace():...', '/Library/WebSer...', 311, Array)
+#1 /Library/WebServer/Documents/download/console/controllers/IndexController.php(311): preg_replace('/[^\\x{4E00}-\\x{...', '', 'admin')
+#2 [internal function]: console\controllers\IndexController->actionTest()
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('test', Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('test', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('index/test', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('index/test', Array)
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /Library/WebServer/Documents/download/yii(27): yii\base\Application->run()
+#11 {main}
+2022-10-19 04:42:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.uxa6JLVqII/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-427'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666154553.0489
+    'REQUEST_TIME' => 1666154553
+    'argv' => [
+        0 => 'yii'
+        1 => 'index/test'
+    ]
+    'argc' => 2
+]
+2022-10-19 04:43:30 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: console\controllers\IndexController::error() in /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /Library/WebServer/Documents/download/console/controllers/IndexController.php(315): yii\base\Component->__call('error', Array)
+#1 [internal function]: console\controllers\IndexController->actionTest()
+#2 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('test', Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('test', Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('index/test', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('index/test', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Library/WebServer/Documents/download/yii(27): yii\base\Application->run()
+#10 {main}
+2022-10-19 04:43:30 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.uxa6JLVqII/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-427'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666154610.0827
+    'REQUEST_TIME' => 1666154610
+    'argv' => [
+        0 => 'yii'
+        1 => 'index/test'
+    ]
+    'argc' => 2
+]

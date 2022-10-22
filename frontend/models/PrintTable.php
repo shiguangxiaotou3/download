@@ -1,6 +1,6 @@
 <?php
 
-namespace shiguangxiaotou;
+namespace ShiGuangXiaoTou\models;
 
 /**
  * 控制台输入二维数组

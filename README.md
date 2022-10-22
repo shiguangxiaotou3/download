@@ -1,24 +1,16 @@
 # download
 
-## Project setup
-```
-npm install
+
+### 给证书签名
+```shell
+
+sudo codesign --sign "php CA" --force --keychain  ~/Library/Keychains/login.keychain-db /opt/homebrew/opt/php@7.4/lib/httpd/modules/libphp7.so
+# /opt/homebrew/etc/php/7.4/php.ini
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+"ext-mcrypt": "*",
+"bower-asset/inputmask":"*",
+"bower-asset/jquery": "*",
+"bower-asset/punycode": "*",
+"bower-asset/yii2-pjax": "*"

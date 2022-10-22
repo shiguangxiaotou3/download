@@ -1,0 +1,27 @@
+.mac-title{
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+}
+
+.mac-title .left{
+    display:flex ;
+}
+.mac-title .left .logo{
+    height: 20px;width: 80px;
+    display:flex ;
+    align-items: center;
+    justify-content:space-around;
+}
+.mac-title .left .logo .item{
+    width: 14px;height: 14px;
+    border-radius:7px
+}
+.mas-title .content{
+}
+.mas-title .right{
+    float: right;
+}

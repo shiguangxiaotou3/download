@@ -1,8 +1,4 @@
-/vendor
-/src/assets/files/*
-/src/runtime/*
-/src/assets/js/markers.json
-/.idea/*
-*/main-local.php
-*/runtime/*
-/frontend/public/assets/*
+vendor
+.idea
+frontend/web/assets
+node_modules

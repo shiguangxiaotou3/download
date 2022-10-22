@@ -1,24 +1,26 @@
 <?php
-use ShiGuangXiaoTou\assets\MyAsset;
 
-    /* @var $this yii\web\View */
-    /* @var $content string */
-//echo Yii::getAlias("@web");
-MyAsset::register($this);
+use yii\helpers\Html;
+use ShiGuangXiaoTou\assets\AppAsset;
+/* @var $this yii\web\View */
+/* @var $content string */
+
+AppAsset::register($this);
 
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="">
+<html <?= Yii::$app->language ?>>
 <head>
-    <meta charset=""/>
+    <meta charset="<?= Yii::$app->charset ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?= $this->title ?></title>
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
-    <?= $content ?>
+<?= $content ?>
 <?php $this->endBody() ?>
 </body>
 </html>

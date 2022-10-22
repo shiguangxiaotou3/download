@@ -15,8 +15,6 @@ class IndexController extends Controller
 
     const savePath ="./assets/jvectormap/maps/run";
 
-
-
     /**
      * 获取地图数据
      */
@@ -24,38 +22,24 @@ class IndexController extends Controller
         $base_path ="./assets/jvectormap/";
         $files = [
             [
-                "file" => './assets/jvectormap/maps/jquery-jvectormap_world_mill_en.js',
-                "savefile" => "./assets/jvectormap/language/world_mill/en/language.json",
+                "file" => './assets/publish/jvectormap-maps-data/dist/maps/city/china/cn_mill.js',
+                "json_file" => "./assets/publish/jvectormap-maps-data/dist/maps/city/china/cn_mill_language/zh.json",
                 "replace" => [
-                    "jQuery.fn.vectorMap('addMap', 'world_mill_en'," => '',
-                    ");" => ""
+                    "jQuery.fn.vectorMap('addMap', 'cn_merc'," => '',
+                    ");" => "",
+                    "%"=>""
                 ],
             ],
-            [
-                "file" => './assets/jvectormap/maps/jquery-jvectormap_cn_merc_cn.js',
-                "savefile" => "./assets/jvectormap/language/cn_merc/cn/language.json",
-                "replace" => [
-                    "jQuery.fn.vectorMap('addMap', 'cn_merc_cn'," => '',
-                    ");" => ""
-                ],
-            ],
-            [
-                "file" => './assets/jvectormap/maps/jquery-jvectormap_us_aea_en.js',
-                "savefile" => "./assets/jvectormap/language/us_aea/en/language.json",
-                "replace" => [
-                    "jQuery.fn.vectorMap('addMap', 'us_aea_en'," => '',
-                    ");" => ""
-                ],
-            ]
-
-
         ];
+
         foreach ( $files   as $file){
-            self:: recursionCreate(dirname( $file['savefile']),$base_path);
+            self:: recursionCreate(dirname( $file['json_file']),$base_path);
             $json_str = file_get_contents($file['file']);
+
             foreach ($file['replace'] as $key=>$value){
                 $json_str = str_replace( $key,$value,$json_str);
             }
+
             $arr = json_decode($json_str,true);
             $insets =isset($arr["insets"][0]) ? json_encode( $arr["insets"][0]):json_encode([]);
             $paths =$arr["paths"];
@@ -63,7 +47,8 @@ class IndexController extends Controller
             foreach ($paths as $key =>$item){
                 $names[] ="         {\"code\":\"".$key."\",\"name\":\"".$item['name']."\"}";
             }
-            $str = join(",\r\n",$names);
+
+            $str = join(",\n",$names);
             $template =<<<JSON
 {
     "insets":{$insets},
@@ -72,7 +57,9 @@ class IndexController extends Controller
     ] 
 }
 JSON;
-            file_put_contents($file['savefile'],$template,FILE_APPEND);
+//            echo $template."\r";
+
+            file_put_contents($file['json_file'],$template,FILE_APPEND);
         }
 
     }
@@ -315,8 +302,13 @@ JSON;
         }
     }
 
-
-
+    public function actionTest(){
+        $username ="admi你好";
+        $b= preg_replace("/[^\x{4E00}-\x{9FFF}]+/u","",$username);
+        if($b !== ""){
+            $this->error("用户名不能含有中文");
+        }
+    }
 
 
 
