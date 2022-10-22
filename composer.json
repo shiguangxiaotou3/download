@@ -6,7 +6,6 @@
             "ShiGuangXiaoTou\\": "frontend/"
         }
     },
-
     "authors": [
         {
             "name": "shiguangxiaotou3",
@@ -16,10 +15,7 @@
     "require": {
         "php": ">=7.0",
         "yiisoft/yii2": "*",
-        "google/cloud-translate": "^1.12",
-        "smalot/pdfparser": "^2.2",
-        "alikdex/yii2-crawler-detect": "1.0",
-        "maximebf/debugbar": "*"
+        "google/cloud-translate": "^1.12"
     },
     "replace": {
         "ext-mcrypt": "*",
