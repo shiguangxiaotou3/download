@@ -16,6 +16,6 @@ class DownloadAsset extends AssetBundle{
         "js/download.js"
     ];
     public $depends = [
-        'yii\web\JqueryAsset'
+//        'yii\web\JqueryAsset'
     ];
 }

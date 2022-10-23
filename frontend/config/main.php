@@ -1,5 +1,10 @@
 <?php
-
+$params = array_merge(
+    require __DIR__ . '/../../common/config/params.php',
+    require __DIR__ . '/../../common/config/params-local.php',
+    require __DIR__ . '/params.php',
+    require __DIR__ . '/params-local.php'
+);
 return [
     'id' => 'ShiGuangXiaoTou',
     'name' => 'ShiGuangXiaoTou',
@@ -12,7 +17,10 @@ return [
         'request' => [
             'csrfParam' => '_csrf-shiguangxiaotou',
         ],
-
+        "cache"=>[
+            'class'=>"yii\caching\FileCache",
+            "cachePath" => "@runtime/cache"
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -26,8 +34,7 @@ return [
         'errorHandler' => [
             'errorAction' => 'index/error',
         ],
-
     ],
 
-    'params' => [],
+    'params' => $params
 ];

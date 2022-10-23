@@ -38,6 +38,26 @@ class FileInfo
 
 
     /**
+     * @param $path
+     * @return array
+     */
+    public static function getFiles($path)
+    {
+        if (is_dir($path)) {
+            $files = scandir($path);
+            $result = [];
+            foreach ($files as $file) {
+                if (($file != "..") and ($file != ".")) {
+                    if (file_exists($path . "/" . $file)) {
+                        $result[] = $file;
+                    }
+                }
+            }
+            return $result;
+        }
+    }
+
+    /**
      * 获取目录权限
      * @param $path
      * @return array

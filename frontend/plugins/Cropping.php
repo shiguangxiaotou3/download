@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ShiGuangXiaoTou;
+namespace ShiGuangXiaoTou\plugins;
 
 
 class Cropping
@@ -23,7 +23,12 @@ class Cropping
         $image_p = imagecreatetruecolor($x, $y);
         $image = imagecreatefrompng($img_path);
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $x, $y, $width, $height);
-        $file_name = $savePath ."tmp_".time() . "_".rand(1,20000) . '.png';
+        if(is_dir($savePath)){
+            $file_name = $savePath ."tmp_".time() . "_".rand(1,20000) . '.png';
+        }else{
+            $file_name =$savePath;
+        }
+
         imagepng($image_p, $file_name, 9);
         imagedestroy($image_p);
         imagedestroy($image);

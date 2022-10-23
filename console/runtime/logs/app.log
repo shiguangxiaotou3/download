@@ -601,3 +601,267 @@ $_SERVER = [
     ]
     'argc' => 2
 ]
+2022-10-23 05:02:55 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "init". in /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('init', Array)
+#1 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('init', Array)
+#2 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Library/WebServer/Documents/download/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "init". in /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('init', Array)
+#1 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Library/WebServer/Documents/download/yii(23): yii\base\Application->run()
+#3 {main}
+2022-10-23 05:02:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mtCb7zIhlw/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-573'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666501375.7807
+    'REQUEST_TIME' => 1666501375
+    'argv' => [
+        0 => 'yii'
+        1 => 'init'
+    ]
+    'argc' => 2
+]
+2022-10-23 05:04:07 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "init". in /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('init', Array)
+#1 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('init', Array)
+#2 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Library/WebServer/Documents/download/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "init". in /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('init', Array)
+#1 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Library/WebServer/Documents/download/yii(23): yii\base\Application->run()
+#3 {main}
+2022-10-23 05:04:07 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mtCb7zIhlw/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-573'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents/download'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666501447.5065
+    'REQUEST_TIME' => 1666501447
+    'argv' => [
+        0 => 'yii'
+        1 => 'init'
+    ]
+    'argc' => 2
+]
+2022-10-23 07:00:14 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class yii\gii\Module does not exist in /Library/WebServer/Documents/download/vendor/yiisoft/yii2/di/Container.php:507
+Stack trace:
+#0 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/di/Container.php(507): ReflectionClass->__construct('yii\\gii\\Module')
+#1 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/di/Container.php(385): yii\di\Container->getDependencies('yii\\gii\\Module')
+#2 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('yii\\gii\\Module', Array, Array)
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('yii\\gii\\Module', Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(445): yii\BaseYii::createObject('yii\\gii\\Module', Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(313): yii\base\Module->getModule('gii')
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(271): yii\base\Application->bootstrap()
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(124): yii\base\Application->init()
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\console\Application->init()
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(204): yii\base\BaseObject->__construct(Array)
+#10 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(89): yii\base\Application->__construct(Array)
+#11 /Library/WebServer/Documents/download/yii(22): yii\console\Application->__construct(Array)
+#12 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "yii\gii\Module". in /Library/WebServer/Documents/download/vendor/yiisoft/yii2/di/Container.php:509
+Stack trace:
+#0 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/di/Container.php(385): yii\di\Container->getDependencies('yii\\gii\\Module')
+#1 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('yii\\gii\\Module', Array, Array)
+#2 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('yii\\gii\\Module', Array)
+#3 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(445): yii\BaseYii::createObject('yii\\gii\\Module', Array)
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(313): yii\base\Module->getModule('gii')
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(271): yii\base\Application->bootstrap()
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(124): yii\base\Application->init()
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\console\Application->init()
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(204): yii\base\BaseObject->__construct(Array)
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(89): yii\base\Application->__construct(Array)
+#10 /Library/WebServer/Documents/download/yii(22): yii\console\Application->__construct(Array)
+#11 {main}
+2022-10-23 07:00:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mtCb7zIhlw/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-573'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666508414.3935
+    'REQUEST_TIME' => 1666508414
+    'argv' => [
+        0 => 'yii'
+    ]
+    'argc' => 1
+]
+2022-10-23 07:06:03 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: getimagesize(./asset/my/img/author.png): failed to open stream: No such file or directory in /Library/WebServer/Documents/download/frontend/plugins/Cropping.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'getimagesize(./...', '/Library/WebSer...', 17, Array)
+#1 /Library/WebServer/Documents/download/frontend/plugins/Cropping.php(17): getimagesize('./asset/my/img/...')
+#2 /Library/WebServer/Documents/download/console/controllers/FaviconsController.php(34): ShiGuangXiaoTou\plugins\Cropping::resampled('./asset/my/img/...', '16', '16', '/Library/WebSer...')
+#3 [internal function]: console\controllers\FaviconsController->actionIndex()
+#4 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('index', Array)
+#7 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('index', Array)
+#8 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('favicons/index', Array)
+#9 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('favicons/index', Array)
+#10 /Library/WebServer/Documents/download/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /Library/WebServer/Documents/download/yii(23): yii\base\Application->run()
+#12 {main}
+2022-10-23 07:06:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/wanlong'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/MAMP/bin/php/php7.4.21/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin'
+    'USER' => 'wanlong'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mtCb7zIhlw/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/wanlong/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-573'
+    'TMPDIR' => '/var/folders/2m/2jcbnl694j3fcrrhc9p99y7w0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'wanlong'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Library/WebServer/Documents/download'
+    'OLDPWD' => '/Library/WebServer/Documents'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/opt/php@7.4/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1666508763.5342
+    'REQUEST_TIME' => 1666508763
+    'argv' => [
+        0 => 'yii'
+        1 => 'favicons/index'
+    ]
+    'argc' => 2
+]

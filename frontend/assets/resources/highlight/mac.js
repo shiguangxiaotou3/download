@@ -2,11 +2,26 @@ jQuery(function ($) {
     $("pre code").each(function(){
         let title =(this.title !== undefined) ? this.title :"";
         let codename ="Text";
+
         if( $(this).attr("class") !== undefined){
-            let arr =$(this).attr("class").split(" ");
-            let language =arr[arr.length-1];
-            codename =language.substring(0,1).toUpperCase() +language.toLowerCase().substring(1)
+            let className =$(this).attr("class");
+            let arr = className.split(" ");
+            if(className.indexOf("language-") !== -1){
+                for(let i =0;i<=arr.length;i++){
+                    if(arr[i].indexOf("language-") !== -1){
+                        let language =arr[i].replace("language-","");
+                        codename =language.substring(0,1).toUpperCase() +language.toLowerCase().substring(1);
+                        break;
+                    }
+                }
+            }else{
+                let arr =$(this).attr("class").split(" ");
+                let language =arr[arr.length-1];
+                codename = language.substring(0,1).toUpperCase() +language.toLowerCase().substring(1)
+            }
+
         }
+
         let html =`<div class='hljs mac-title' >
             <div class="left">
                 <div class="logo">

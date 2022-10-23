@@ -1,2 +1,8 @@
 <?php
-return [];
+
+return [
+//    'bootstrap' => ['gii'],
+//    'modules' => [
+//        'gii' => 'yii\gii\Module',
+//    ],
+];

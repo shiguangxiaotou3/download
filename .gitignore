@@ -2,3 +2,4 @@ vendor
 .idea
 frontend/web/assets
 node_modules
+key.md

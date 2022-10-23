@@ -15,22 +15,18 @@ class IndexController extends Controller
 {
 
 
+    public $layout ="webslides";
+
     /**
      * @return string
      */
     public function actionIndex(){
-        $path = Yii::getAlias('@appAssets/files');
-        $data=[];
-         FileInfo::getFilesInfo($path, $data,$path,'./');
-        return $this->render("index",['data'=>$data]);
+        return  $this->render("index");
     }
-
-
-    public function list(){
-
-    }
-
+    /**
+     * @return string
+     */
     public function actionError(){
-        echo "asdas";
+        return  $this->render("error");
     }
 }

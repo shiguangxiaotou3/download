@@ -11,7 +11,6 @@ class HighlightAsset  extends AssetBundle{
 
     public $sourcePath =  "@appAssets/highlight";
     public $css = [
-        "styles/monokai_sublime.css",
         'mac.css'
     ];
     public $js = [
@@ -24,5 +23,4 @@ class HighlightAsset  extends AssetBundle{
     public $depends = [
         'yii\web\JqueryAsset'
     ];
-
 }
