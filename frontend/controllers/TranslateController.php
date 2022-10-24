@@ -80,11 +80,11 @@ class TranslateController extends ApiController {
     public function actionTranslate(){
         /** @var  $require Request */
         $require = Yii::$app->request;
-        $source=$require->get("source","");
-        $target=$require->get("target","zh-CN");
-        $format=$require->get("format","text");
-        $model=$require->get("model","text");
-        $str = $require->get("str");
+        $source=$require->psot("source","");
+        $target=$require->psot("target","zh-CN");
+        $format=$require->psot("format","text");
+        $model=$require->psot("model","text");
+        $str = $require->psot("str");
         if(isset($str) and !empty($str)){
             return $this->translate->translate($str,[
                 "source"=>$source,
