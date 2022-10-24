@@ -41,4 +41,11 @@ class DocController extends Controller
 
         return $this->render("md",['pageData'=>$pageData]);
     }
+
+    public function actionTest(){
+        $require = Yii::$app->request;
+        logObject($require->headers);
+        logObject($require->get());
+
+    }
 }

@@ -4,6 +4,7 @@ namespace ShiGuangXiaoTou\controllers;
 
 use Yii;
 use yii\web\Controller;
+use yii\web\Request;
 use yii\web\Response;
 use Google\Cloud\Translate\V2\TranslateClient;
 
@@ -27,8 +28,7 @@ class TranslateController extends ApiController {
     public function actionLanguages(){
         $cache = Yii::$app->cache;
         if(!$cache->get("iso")){
-            $translate = new TranslateClient(["key"=>$this->key]);
-            $languages = $translate->languages();
+            $languages = $this->translate->languages();
             $iso=[];
             foreach ($languages as $language) {
                 $iso[]= $language;
@@ -45,7 +45,7 @@ class TranslateController extends ApiController {
         $cache = Yii::$app->cache;
         if(!$cache->get("languageInfo")){
             $translate = new TranslateClient(["key"=>$this->key]);
-            $languages = $translate->localizedLanguages();
+            $languages = $this->translate->localizedLanguages();
             $results =[];
             foreach ($languages as $language) {
                 $results []= $language;
@@ -59,13 +59,18 @@ class TranslateController extends ApiController {
      * 检测语言
      */
     public function actionDetectLanguage(){
-
+        return $this->translate->detectLanguage(
+            Yii::$app->request->get("str","")
+        );
     }
 
     /**
      * 批量检测语言
      */
     public function actionDetectLanguages(){
+        return $this->translate->detectLanguageBatch(
+            Yii::$app->request->get("str","")
+        );
 
     }
 
@@ -73,6 +78,21 @@ class TranslateController extends ApiController {
      * translate
      */
     public function actionTranslate(){
+        /** @var  $require Request */
+        $require = Yii::$app->request;
+        $source=$require->get("source","");
+        $target=$require->get("target","zh-CN");
+        $format=$require->get("format","text");
+        $model=$require->get("model","text");
+        $str = $require->get("str");
+        if(isset($str) and !empty($str)){
+            return $this->translate->translate($str,[
+                "source"=>$source,
+                "target"=> $target,
+                "format"=>$format,
+                "model"=>$model
+            ]);
+        }
 
     }
 }

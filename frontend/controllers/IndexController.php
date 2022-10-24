@@ -29,4 +29,8 @@ class IndexController extends Controller
     public function actionError(){
         return  $this->render("error");
     }
+
+    public function actionIcon(){
+        return  $this->render("icon");
+    }
 }

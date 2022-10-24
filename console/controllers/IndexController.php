@@ -389,4 +389,31 @@ JSON;
     }
 
 
+    /**
+     * 匹配icon 名字
+     */
+    public function actionIconName(){
+        $file = "a.text";
+        $data = file_get_contents($file);
+
+        preg_match_all("/id=\"[^\s]*\"/",$data,$arr);
+        $reslut =[];
+        foreach ($arr[0] as $item){
+            $str = str_replace("id=\"","",$item);
+            $str = str_replace("\"","",$str);
+            $reslut[] = $str;
+            unset($str);
+        }
+        logObject(json_encode($reslut,true));
+
+        $save_file = \Yii::getAlias('@appAssets')."/webslides/static/js/iconName.json";
+
+
+        file_put_contents($save_file ,json_encode($reslut,true),FILE_APPEND);
+
+
+
+    }
+
+
 }

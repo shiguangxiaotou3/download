@@ -3,6 +3,7 @@
 
 namespace ShiGuangXiaoTou\controllers;
 
+use Google\Cloud\Translate\V2\TranslateClient;
 use Yii;
 use yii\web\Controller;
 use yii\web\Response;
@@ -10,7 +11,7 @@ use yii\web\Response;
 /**
  * Class ApiController
  *
- * @property-read string  $translateKey
+ * @property-read TranslateClient $translate
  * @package ShiGuangXiaoTou\controllers
  */
 class ApiController extends  Controller{
@@ -19,6 +20,7 @@ class ApiController extends  Controller{
      * @var $translateKey string
      */
     private $translateKey;
+    private $_object;
 
     /**
      * @param yii\base\Action $action
@@ -57,13 +59,14 @@ class ApiController extends  Controller{
         return parent::beforeAction($action);
     }
 
-
-    public function error(){
-
+    /**
+     * @return TranslateClient
+     */
+    public function getTranslate(){
+        if(!isset($this->_object)){
+            $this->_object=   new TranslateClient(["key"=>$this->translateKey]);
+        }
+        return  $this->_object;
     }
 
-
-    public function success(){
-
-    }
 }
